@@ -4,8 +4,8 @@ void main(List<String> arguments) {
   int number = int.tryParse(stdin.readLineSync());
 
   if (number < 5) {
-    print("Mendapat bonus");
+    print('Positif');
   } else {
-    print("Tidak dapat, karena di atas");
+    print('Negatif');
   }
 }
